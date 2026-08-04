@@ -33,5 +33,6 @@ User Research Workflow
 
 User Research -> Data Elicitation -> Select Appropriate Method -> Questions/Task and Business Process -> Conduct -> Categorisation + Synthesize (Result Reporting) -> Problem Analysis (Root Causes. Why do we need a design?) -> Storytelling -> Personas/UserJourney Maps/Requirements
 
-Subjective, qualitative research
-Objective, qualitative research
+Subjective, **qualitative** research
+Objective, **qualitative** research
+
