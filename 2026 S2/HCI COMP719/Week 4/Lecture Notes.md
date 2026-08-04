@@ -36,3 +36,18 @@ User Research -> Data Elicitation -> Select Appropriate Method -> Questions/Task
 Subjective, **qualitative** research
 Objective, **qualitative** research
 
+Observation
+- Take notes of users doing their work or using your design.
+- Before the visit-Plan for the activity:
+	- Prepare the task list, anticipate attention focus and observing points for users (use a template for note-taking), and possible subset of questions.
+
+During the visit: Collect usage data
+- Do not rely on your own memory
+- Resist the temptation to help/provide tips
+- Allow users to think (be comfortable with silence)
+- Recording video (or voice notes): interpreting body language, observing how they choose rather than just what; People may lie (just) to get your approval ("great design"!)
+- Keep in mind that *watching* is not the same as observing the users.
+
+Focus on groups!
+Ask questions to a select group of people (usually in a meeting room setting)
+Beware of assertive/confident/charismatic individuals
