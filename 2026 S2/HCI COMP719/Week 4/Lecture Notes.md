@@ -48,6 +48,27 @@ During the visit: Collect usage data
 - Recording video (or voice notes): interpreting body language, observing how they choose rather than just what; People may lie (just) to get your approval ("great design"!)
 - Keep in mind that *watching* is not the same as observing the users.
 
-Focus on groups!
+Different groups of individuals will end in different results!
 Ask questions to a select group of people (usually in a meeting room setting)
-Beware of assertive/confident/charismatic individuals
+Beware of assertive/confident/charismatic individuals.
+
+Preparing questions:
+- Who Identifies the person, group, r persona involved or affected. (Experienced, Novice, Casual, vs Frequent Usages)
+- What? Defines the event, action, or issue that occured. (Task, proesses, and workflows; Decision, information; System, tools)
+- When? establishes the time, date, or sequence of events
+- Where? Determines the location ,place ,or context
+- Why
+- How
+Example stories 
+- As a <traveler>, I want <to save my favourite airline for all my flights> so that <I will be able to collect air miles>.
+Useful info: <User Role> , <Requirement>, <Objective>
+
+Interviews
+- Ask end-users individually a set of questions, from fact/insights finding to open-ended
+- To gain insights into user experiences, pain-points, frustrations, and preferences, and as a one-on-one conversation with a user to gather insights and feedback - Consider multi-step testing or decisions involved with follow-up questions, depending on prior behaviour.
+
+Pros: Likely to be more honest; participation at the user's convenience; each user gets the same questions
+Cons: Can't ask follow-up questions; question sequence or grouping may influence the answers (bias); people can take shortcuts (being untruthful or not bother to complete the survery); can't retake the survery.
+
+Card Sorting
+Based on a subjective/intuitive grouping or categorising a set of post-its or cards.
