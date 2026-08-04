@@ -79,3 +79,7 @@ Cons: Can't ask follow-up questions; question sequence or grouping may influence
 
 Card Sorting
 Based on a subjective/intuitive grouping or categorising a set of post-its or cards.
+Eg: Designing a large website can be overwhelming
+- Pros: Card sorting will help you get started; help you discover priorities of your audience; help you discover structure, patterns that may initially appear random; It can also reveal the differences between employee groups within the organisation
+- Cons: Can be tedious to set up and analyse; it is as good as the sorting material/content is; sometimes sorted cards may not make sense; Card sorting is designed to reveal assumptions and expectations rather than provide direct/explicit innovation
+
