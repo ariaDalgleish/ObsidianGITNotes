@@ -28,3 +28,10 @@ Data elicitation lifecycle:
 - Observing and interviewing clients/end-users in the context of work/play practice environment
 	- Note what they are doing and how their brain is processing data input -> output. 
 - Data collection
+
+User Research Workflow
+
+User Research -> Data Elicitation -> Select Appropriate Method -> Questions/Task and Business Process -> Conduct -> Categorisation + Synthesize (Result Reporting) -> Problem Analysis (Root Causes. Why do we need a design?) -> Storytelling -> Personas/UserJourney Maps/Requirements
+
+Subjective, qualitative research
+Objective, qualitative research
