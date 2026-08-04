@@ -53,12 +53,19 @@ Ask questions to a select group of people (usually in a meeting room setting)
 Beware of assertive/confident/charismatic individuals.
 
 Preparing questions:
-- Who Identifies the person, group, r persona involved or affected. (Experienced, Novice, Casual, vs Frequent Usages)
+•Asking open-ended questions to gain insights into user experiences and preferences
+•Open questions – “How would you describe …?”
+•Leading questions - “What are the top 3/best features of …?”
+•Closed/Direct Questions – “Which is the best option: A, B or C?”
+
+
+- Who? Identifies the person, group, r persona involved or affected. (Experienced, Novice, Casual, vs Frequent Usages)
 - What? Defines the event, action, or issue that occured. (Task, proesses, and workflows; Decision, information; System, tools)
 - When? establishes the time, date, or sequence of events
 - Where? Determines the location ,place ,or context
-- Why
-- How
+- Why? Explores the reasons, causes, motives, or purpose.
+- How? (Often added) Examines the process, manner, or method.
+
 Example stories 
 - As a <traveler>, I want <to save my favourite airline for all my flights> so that <I will be able to collect air miles>.
 Useful info: <User Role> , <Requirement>, <Objective>
