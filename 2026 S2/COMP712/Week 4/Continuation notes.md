@@ -29,3 +29,5 @@ CPS Mindset: do not return a result directly;
 instead, route control to the appropriate next step
 
 Write the if function using CPS
+
+A function never returns a value, instead it takes an extra argument - a continuation (called k) which is a function representing "what to do with the result." 
