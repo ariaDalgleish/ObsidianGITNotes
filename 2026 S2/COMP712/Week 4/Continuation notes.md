@@ -38,3 +38,12 @@ represented as:
 (struct num (n) #:transparent)
 (struct add (l r) #:transparent) // left and right
 ```
+
+CPS-style Evaluator
+expression -> left value -> right value -> add -> continuation
+For interpreters, this is powerful because you can change the
+continuation to:
+– Stop early on an error
+– Collect debugging information
+– Implement exceptions
+– Add sequencing and control operators
