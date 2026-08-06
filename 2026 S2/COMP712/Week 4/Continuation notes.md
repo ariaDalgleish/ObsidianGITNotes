@@ -47,3 +47,15 @@ continuation to:
 – Collect debugging information
 – Implement exceptions
 – Add sequencing and control operators
+
+this let is called loop. Let "name"
+```
+(define (find-first-zero xs
+	(call/cc
+		(lambda (exit)
+			(let loop ([xs xs])
+				(cond
+					[(empty? xs) #f)]
+					[(zero? (first xs)) (exit #t)]
+					[else (loop (rest xs))])))))
+```
