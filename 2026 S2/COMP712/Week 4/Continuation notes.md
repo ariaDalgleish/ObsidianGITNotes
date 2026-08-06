@@ -31,3 +31,10 @@ instead, route control to the appropriate next step
 Write the if function using CPS
 
 A function never returns a value, instead it takes an extra argument - a continuation (called k) which is a function representing "what to do with the result." 
+
+Types of constructs, numbers and addition. All you can do is add numbers.
+represented as:
+```
+(struct num (n) #:transparent)
+(struct add (l r) #:transparent) // left and right
+```
