@@ -61,3 +61,25 @@ this let is called loop. Let "name"
 ```
 
 
+Points to Note
+- Is it just an exception?
+	Exception is one specific use case; continuations are more general.
+- Does k return?
+	No, calling a captured continuation abandons the current path and
+	resumes the saved one.
+- Can I call it many time?
+	Yes, the captured continuation can be stored and invoked multiple
+	times. This is partly what makes it powerful.
+
+Exercise
+
+result is 15. Why is it +10 5 and not + 10 99? pass 5 next to 10 so + 10 5.
+```
+(+ 10
+   (call/cc
+    (lambda (k)
+      (k 5) // immediately leaves the call/cc 
+      99))) // never reached
+```
+
+k is called before 99 is reached. `(call/cc (lambda (k) ...))` captures "the rest of the computation". that's "take whatever value comes out of this `call/cc` and add 10 to it" 
