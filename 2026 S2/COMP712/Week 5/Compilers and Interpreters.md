@@ -51,4 +51,6 @@ Unconventional Compilers
 - Query language processors
 - Compiler-compilers - generate parsers from language grammars
 
-Computer Languages must be **precisely** specific
+Computer Languages must be **precisely** specificized in terms of syntax(form) and semantics(meaning) without ambiguity.
+
+Different types of classification language levels.
