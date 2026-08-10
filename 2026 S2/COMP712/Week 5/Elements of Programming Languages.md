@@ -1,6 +1,6 @@
 Programming languages
 Three aspects to making your own language - Syntax, Semantics, Pragmatics
-### Syntax
+## Syntax
 Any language will have syntax - English
 	Two parts -
 	Lexical Syntax 
@@ -39,7 +39,7 @@ def abs (n) :
 Abstract Syntax - A syntax tree
 ![[Pasted image 20260811101743.png]]
 
-### Semantics
+## Semantics
 The **Semantics** of a programming language - defines its meaning
 	**Static** semantics: something we can understand without having to run the program.
 	A question to ask: 
@@ -111,5 +111,31 @@ public boolean s(int z) {
 	return f(z); }
 ```
 
-### Pragmatics
+## Pragmatics
 The details that go into your complier that help you do your job.
+The pragmatics of a programming language describes how it is used
+- It refers to the practical aspects of how constructs and features of a language may be used to achieve various objectives
+Example:
+x = y + 1
+x is a temporary variable to keep track of the number of times a block of code has been executed.
+
+
+Power vs Expressiveness
+Power
+	**What** can be expressed by a given language
+Expressiveness
+	How **easy** it is to express a computational process/operation in a given language
+
+Dimensions of PLs
+Data
+	What are the atomic and composite types? What kinds of data structures are supported in the language?
+First-class values
+	Whether languages consider functions as first class or passed as arguments
+Naming and Scope
+	How a variable function names are declared what determines their scope, dynamic scope or static?
+Types
+	Do I need types in my program to solve the problem - what type of variable is allowed, dynamic or static
+State
+	What entities in the language can change over time? What can be changed what will remain static, what can be destroyed etc
+Control
+	How to control the flow of a language? What constructs are there to control. Continuation specify the flow.
