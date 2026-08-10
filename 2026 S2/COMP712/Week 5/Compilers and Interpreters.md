@@ -31,3 +31,14 @@ Includes:
 Multiple instructions you can use to do multiple things, which one do we use?
 
 ![[Pasted image 20260811105432.png]]
+## Interpreter
+More just front end, the back end of an interpreter is the Evaluator. Sometimes the evaluator is the input of the syntax tree, so the evaluator basically follows the trees branches. 
+
+A program that executes another program on some input, producing an output
+	Controls the execution.
+Allows users to input and execute program statements on the fly.
+
+Dynamic and Just-in-Time compilers.
+Deliberately delay compliation until last possible moment. 
+Typically work with interpreters - done in racket, first time you run its interpreted at the same time it compiles it. First time is slow, ready for use for second time.
+Only compiled when you use it
