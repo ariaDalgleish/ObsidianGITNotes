@@ -66,5 +66,16 @@ Which of the ofllowing Java code is well-typed
 2 * (3 + 4) (Well typed)
 2 < (3 + 4) (Well typed)
 2 < True (Not allowed) Boolean and integers cannot mix.
+``` Java
+if (a < b) {
+	c = a + b;
+} else {
+	c = a * b;
+}
+```
+
+
+
+
 ### Pragmatics
 The details that go into your complier that help you do your job.
