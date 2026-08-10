@@ -55,7 +55,8 @@ x = y + 1
 What are the semantics? Where the values come from?
 As a computer what will that mean?
 Means:
+Assign memory location assign the 1 to 
+Add 1 to the content at memory address loc
 
-
-- Pragmatics
-	- The details that go into your complier that help you do your job.
+### Pragmatics
+The details that go into your complier that help you do your job.
