@@ -42,3 +42,10 @@ Dynamic and Just-in-Time compilers.
 Deliberately delay compliation until last possible moment. 
 Typically work with interpreters - done in racket, first time you run its interpreted at the same time it compiles it. First time is slow, ready for use for second time.
 Only compiled when you use it
+
+C is the standard compiler because its been optimized so many times.
+
+Unconventional Compilers
+- Text formatters (e.g. LaTeX)
+- Silicon compilers - generate microchip layouts from circuits.
+- 
