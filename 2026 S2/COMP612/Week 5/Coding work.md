@@ -31,3 +31,7 @@ For a **snow scene with following eyes**, screen-space is actually the better ch
 3. **Mouse tracking** is already in screen coordinates
 
 If you resize the window, both the eyes and particles should scale proportionally, which happens automatically with screen-space as long as you update particle spawn/death coordinates based on `windowHeight` and `windowWidth`.
+
+ToDo:
+
+H
