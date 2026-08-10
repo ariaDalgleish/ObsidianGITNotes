@@ -67,6 +67,7 @@ Which of the ofllowing Java code is well-typed
 2 < (3 + 4) (Well typed)
 2 < True (Not allowed) Boolean and integers cannot mix.
 ``` Java
+// Allowed
 if (a < b) {
 	c = a + b;
 } else {
@@ -74,6 +75,15 @@ if (a < b) {
 }
 ```
 
+``` Java
+// Allowed
+if (a) {
+	c = a + b;
+} else {
+	c = a * b;
+}
+```
+Anything none 0 is true, this representation is allowed in Java
 
 
 
