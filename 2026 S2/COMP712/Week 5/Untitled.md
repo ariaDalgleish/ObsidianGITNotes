@@ -85,7 +85,17 @@ if (a) {
 ```
 Anything none 0 is true, this representation is allowed in Java
 
+``` Java
+/* Not allowed In first class c would be an int but in second class c would be a boolean. Second part expresses a true or false. */
+if (a < b) {
+	c = a + b;
+} else {
+	c = a < b;
+}
+```
 
+```
+```
 
 ### Pragmatics
 The details that go into your complier that help you do your job.
