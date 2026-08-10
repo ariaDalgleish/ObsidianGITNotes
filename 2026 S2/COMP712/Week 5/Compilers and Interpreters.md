@@ -47,5 +47,8 @@ C is the standard compiler because its been optimized so many times.
 
 Unconventional Compilers
 - Text formatters (e.g. LaTeX)
-- Silicon compilers - generate microchip layouts from circuits.
-- 
+- Silicon compilers - (early days when chips were simple) generate microchip layouts from circuits.
+- Query language processors
+- Compiler-compilers - generate parsers from language grammars
+
+Computer Languages must be **precisely** specific
