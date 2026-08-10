@@ -56,3 +56,7 @@ Computer Languages must be **precisely** specificized in terms of syntax(form) a
 Different types of classification language levels.
 Type 0 - free or unrestricted grammar. (Speech)
 Type 1 - context-sensitive grammar. Meaning depends on the context.
+Type 2 - context-free grammar
+- in the form of grammar rules, suitable for programming languages
+Type 3 - regular or finite-state grammar
+- regular expressions that can be recognized using finite state machines.
