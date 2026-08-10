@@ -94,8 +94,15 @@ if (a < b) {
 }
 ```
 
+``` Java
+// Allowed
+public int g(int i, boolean b) {
+	return i * (b ? 1 : -1;) }
 ```
+``` Java
+// Allowed
+public int p(int w) {
+	return i * (b ? 1 : -1;) }
 ```
-
 ### Pragmatics
 The details that go into your complier that help you do your job.
