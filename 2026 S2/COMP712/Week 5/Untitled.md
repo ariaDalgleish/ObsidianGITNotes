@@ -40,7 +40,8 @@ Abstract Syntax - A syntax tree
 ![[Pasted image 20260811101743.png]]
 
 The **Semantics** of a programming language - defines its meaning
-	Two types of semantics - static semantics : something we can understand without having to run the program. But what does it mean wo
+	Two types of semantics - static semantics : something we can understand without having to run the program.
+		A question to ask: Are the expressions **well-typed**?  
 
 - Semantics
 - Pragmatics
