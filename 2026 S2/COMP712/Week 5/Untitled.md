@@ -106,9 +106,11 @@ public int p(int w) {
 ```
 
 ``` Java
-
-public boolean s(int w) {
-	if (w > 0) {return 2*w; }}
+// Unsure cause we don't know how f is being defined
+public boolean s(int z) {
+	return f(z); }
 ```
+
+
 ### Pragmatics
 The details that go into your complier that help you do your job.
