@@ -1,7 +1,7 @@
 Programming languages
-Three aspects to making your own language 
-- Syntax
-	Any language will have syntax - English
+Three aspects to making your own language - Syntax, Semantics, Pragmatics
+### Syntax
+Any language will have syntax - English
 	Two parts -
 	Lexical Syntax 
 		 Always some special set of words to use (keywords) - you should not use these as your variable names.
@@ -39,6 +39,7 @@ def abs (n) :
 Abstract Syntax - A syntax tree
 ![[Pasted image 20260811101743.png]]
 
+### Semantics
 The **Semantics** of a programming language - defines its meaning
 	**Static** semantics: something we can understand without having to run the program.
 	A question to ask: 
@@ -52,7 +53,9 @@ The **Semantics** of a programming language - defines its meaning
 x = y + 1 
 
 What are the semantics? Where the values come from?
-As a comp
-- Semantics
+As a computer what will that mean?
+Means:
+
+
 - Pragmatics
 	- The details that go into your complier that help you do your job.
