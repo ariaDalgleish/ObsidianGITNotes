@@ -55,8 +55,10 @@ x = y + 1
 What are the semantics? Where the values come from?
 As a computer what will that mean?
 Means:
-Assign memory location assign the 1 to 
-Add 1 to the content at memory address loc
+Assign memory location.
+Add 1 to the content at memory address located where variable ==y== is associated with. 
+The result of the addition is to be stored at memory address located where variable ==x== is associated with.
+Thi
 
 ### Pragmatics
 The details that go into your complier that help you do your job.
