@@ -1,0 +1,45 @@
+Programming languages
+Three aspects to making your own language 
+- Syntax
+	Any language will have syntax - English
+	Two parts -
+	Lexical Syntax 
+		 Always some special set of words to use (keywords) - you should not use these as your variable names.
+		 What constitutes legal identifiers that names variables, functions, and constants. 
+		 Operators and punctuation marks - semi colons at the end of a statement etc
+	Grammatical Syntax - how to put the words together to form a meaningful sentence
+		What is a valid statement in that language, like C always end with a semicolon 
+		How we compose larger expressions from smaller expressions - how do we describe what the syntax looks like - what is allowed and not
+			**Backus-Naur Form** or its extension
+		we use language to describe what the language looks like.
+		example x = y + 1 
+		(x y) variables , (=) assignment operator , (y + 1) expression that we need to compute, altogether is a statement 
+
+Front-End Processing 
+	First part is Scanner or Laxer. The first part is to group all these characters together - produces this stream of Tokens (means a unit of something) then goes through the sequence of tokens produced to make sense and see if its allowed in this language - produces a syntax in a tree form which will be redefined for later use.
+
+Concrete Syntax - that we use to write. 
+``` Java
+public static int abs (int n) {
+	if (n < 0)
+		return -n;
+	else
+		return n;
+}
+```
+
+``` python
+def abs (n) :
+	if n < 0 :
+		return -n
+	else:
+		return n
+```
+
+Abstract Syntax - A syntax tree
+
+
+
+- Semantics
+- Pragmatics
+	- The details that go into your complier that help you do your job.
