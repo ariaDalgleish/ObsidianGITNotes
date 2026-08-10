@@ -58,7 +58,12 @@ Means:
 Assign memory location.
 Add 1 to the content at memory address located where variable ==y== is associated with. 
 The result of the addition is to be stored at memory address located where variable ==x== is associated with.
-Thi
+These are the questions the interpreter will be concerned about its different from the programmers perspective. 
+
+Static semantics Example: Type Checking
+Which of the ofllowing Java code is well-typed
+
+2 * (*
 
 ### Pragmatics
 The details that go into your complier that help you do your job.
