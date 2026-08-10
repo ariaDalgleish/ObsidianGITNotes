@@ -63,7 +63,8 @@ These are the questions the interpreter will be concerned about its different fr
 Static semantics Example: Type Checking
 Which of the ofllowing Java code is well-typed
 
-2 * (*
-
+2 * (3 + 4) (Well typed)
+2 < (3 + 4) (Well typed)
+2 < True (Not allowed) Boolean and integers cannot mix.
 ### Pragmatics
 The details that go into your complier that help you do your job.
