@@ -45,10 +45,14 @@ The **Semantics** of a programming language - defines its meaning
 		Are the expressions **well-typed**?  
 		What is the **scope** of a variable?
 	**Dynamic** Semantics: What will happen when the program runs 
-		Will the program **terminate**? Infinite loops it will never terminate.
-		What side effects will it produce? Are the
-		
+		Will the program **terminate**? - Infinite loops it will never terminate.
+		What side effects will it produce? 
+		What **outputs** will it produce? - Are the results tidy on the screen
 
+x = y + 1 
+
+What are the semantics? Where the values come from?
+As a comp
 - Semantics
 - Pragmatics
 	- The details that go into your complier that help you do your job.
