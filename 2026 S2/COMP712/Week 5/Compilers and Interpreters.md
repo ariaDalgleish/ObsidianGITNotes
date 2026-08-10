@@ -54,3 +54,5 @@ Unconventional Compilers
 Computer Languages must be **precisely** specificized in terms of syntax(form) and semantics(meaning) without ambiguity.
 
 Different types of classification language levels.
+Type 0 - free or unrestricted grammar. (Speech)
+Type 1 - context-sensitive grammar. Meaning depends on the context.
