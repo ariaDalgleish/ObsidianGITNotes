@@ -100,9 +100,15 @@ public int g(int i, boolean b) {
 	return i * (b ? 1 : -1;) }
 ```
 ``` Java
-// Allowed
+// Not allowed
 public int p(int w) {
-	return i * (b ? 1 : -1;) }
+	if (w > 0) {return 2*w; }}
+```
+
+``` Java
+
+public boolean s(int w) {
+	if (w > 0) {return 2*w; }}
 ```
 ### Pragmatics
 The details that go into your complier that help you do your job.
