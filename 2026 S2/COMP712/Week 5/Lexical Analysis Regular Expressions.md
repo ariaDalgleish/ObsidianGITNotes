@@ -113,4 +113,21 @@ start with lower or upper case or under score. Followed by lower or upper case o
 String constants: `\"[a-zA-Z0-9]|\\[a-zA-Z]*\"` in quotation any char or int zero or more times (can be blank)
 
 
+| Operator | Description                           | level       |
+| -------- | ------------------------------------- | ----------- |
+| `()`     | Parenthesis for grouping              | 1 (highest) |
+| `[]`     | Character classes                     | 2           |
+| `* + ?`  | Closure: 0 or more, 1 or more, 0 or 1 | 3           |
+| `cc`     | concatenation                         | 4           |
+| `\|`     | OR                                    | 5           |
+| `^ $`    | Anchors to beggining and end of line  | 6 (lowest)  |
+
+regexp Function
+(define unsigned-integer
+(regexp ”[0-9]+”))
+or `(regexp ”[0-9][0-9]*”)`
+Short form:
+```
+ #rx”[0-9]+”
+```
 
