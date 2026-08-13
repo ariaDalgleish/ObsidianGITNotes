@@ -18,15 +18,11 @@ Lexer takes a sequence of characters and trying to specificy what the tokens sho
 
 Lexeme - a sequence of chars that matches the pattern for a token.
 Tokens - a token name and an optional attribute (identifier or ....)
-|  |  |
-| --------------| ---------- |
-| LPAREN | x foo first 1| 
 
- 
-
-| Token Name | Lexemes |
-| ---------- | ------- |
-|            |         |
+| Token Name      | Lexemes       |
+| --------------- | ------------- |
+| ID (Identifier) | x foo first 1 |
+| LPAREN          | (             |
 
 | Non Token              | Examples |
 | ---------------------- | -------- |
