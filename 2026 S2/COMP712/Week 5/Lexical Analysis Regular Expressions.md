@@ -37,3 +37,12 @@ Tokens - a token name and an optional attribute (identifier or ....)
 | macros                 | #define  |
 | tabs                   |          |
 | new lines              |          |
+|                        |          |
+```
+float find0(char *s) /* find a zero */
+{ if (!strncmp(s, ”0.0”, 3))
+return 0.;
+}
+```
+Sequence of Tokens:
+Keyword "FLOAT" IF(find0) LPAREN (left parenthesis) CHAR STAR ID(s) RPAREN 
