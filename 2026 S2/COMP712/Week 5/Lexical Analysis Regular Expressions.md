@@ -52,3 +52,5 @@ C has more than 100 kinds of tokens:
 integer ,floating ,point ,character ,string 
 54 punctuators (+, * , = , -)
 
+Metalanguage – Specify lexical tokens using regular expressions
+Implement lexers using deterministic finite automata (DFA)
