@@ -119,7 +119,7 @@ String constants: `\"[a-zA-Z0-9]|\\[a-zA-Z]*\"` in quotation any char or int zer
 | `[]`     | Character classes                     | 2           |
 | `* + ?`  | Closure: 0 or more, 1 or more, 0 or 1 | 3           |
 | `cc`     | concatenation                         | 4           |
-| `\|`     | OR                                    | 5           |
+| ```\|``` | OR                                    | 5           |
 | `^ $`    | Anchors to beggining and end of line  | 6 (lowest)  |
 
 regexp Function
@@ -149,3 +149,6 @@ more:
 (define cal-func #rx"^(sin|cos|tan|asin|acos|atan|log|ln|sqrt)")
 (define cal-ws #rx"^ *")
 ```
+
+Homework: 
+" 2 + 3 * 4"  
