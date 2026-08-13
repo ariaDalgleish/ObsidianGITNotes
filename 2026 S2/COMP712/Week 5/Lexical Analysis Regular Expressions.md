@@ -97,3 +97,20 @@ either plus or minus is alternatives, we only want it happening once
 
 Regular expression that matches any real number:
 `(+|-)?[0-9]+([\.][0-9]*)`
+`[0-9]*` one or more digits, at least one digit required (interger)
+`(+|-)?` plus or minus is optional
+`\.` decimal point needed.
+
+Regular expression that matches the words “frankie” or “johnie”:
+`(frank|john)ie` 
+"frank" or "Frank"
+`(f|F)rank`
+Regular expression that matches the words “frankie”, “johnie”, “frank” or “john”:
+`(frank|john)(ie)?`
+Legal Java or C variable names: `[a-zA-Z_][a-zA-Z_0_9]*`
+start with lower or upper case or under score. Followed by lower or upper case or under score or integer, zero or more times.
+
+String constants: `\"[a-zA-Z0-9]|\\[a-zA-Z]*\"` in quotation any char or int zero or more times (can be blank)
+
+
+
