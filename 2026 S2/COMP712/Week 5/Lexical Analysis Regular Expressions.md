@@ -136,3 +136,16 @@ Short form:
  #rx”[0-9]+”
 ```
 
+regex for calculator!
+```
+(define cal-number
+  #rx"^[0-9]+(?>\\.[0-9]+)?(?>e[+-]?[0-9]+)?")
+```
+ can be 53, 53.2 , 53.1e-14 , 53.2 , e14
+
+more:
+```
+(define cal-op #rx"^[-+*/^=]")
+(define cal-func #rx"^(sin|cos|tan|asin|acos|atan|log|ln|sqrt)")
+(define cal-ws #rx"^ *")
+```
