@@ -45,4 +45,4 @@ return 0.;
 }
 ```
 Sequence of Tokens:
-Keyword "FLOAT" IF(find0) LPAREN (left parenthesis) CHAR STAR ID(s) RPAREN 
+Keyword "FLOAT" IF(find0) LPAREN (left parenthesis) CHAR STAR ID(s) RPAREN LBRACE IF LPAREN BANG ID(strncmp) LPAReN ID(s) COMMA STRING(0.0) COMMA NUM(3) RPAREN RPAREN RETURN REAL(0.0) SEMI RBRACE EOF
