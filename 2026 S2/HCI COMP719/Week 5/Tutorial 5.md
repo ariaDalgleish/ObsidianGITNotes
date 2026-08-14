@@ -22,3 +22,5 @@ Different phases is the story. The personal experiences with milestones through 
 Graph line different emotions. Middle line is neutral. This line represents satisfaction
 
 Problems and Actions.
+
+User interface. 
