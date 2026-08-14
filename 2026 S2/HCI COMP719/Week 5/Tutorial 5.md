@@ -1,4 +1,5 @@
 
 Assignment details.
 
-Fishbone Diagram, Personas, User Journey Map, Requirements, Inc
+Fishbone Diagram, Personas, User Journey Map, Requirements,
+
