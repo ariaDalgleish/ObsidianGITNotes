@@ -2,7 +2,7 @@
 Assignment details.
 
 Fishbone Diagram, Personas, User Journey Map, Requirements,
-
+POOL evidence. Chats with lecturer, question and answer. Evidence of tutorial work. User Research  for each group.
 ## Requirements
 Statements about an intended product that specify what it is expected to do or how it will perform
 
