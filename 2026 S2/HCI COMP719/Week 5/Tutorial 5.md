@@ -23,4 +23,7 @@ Graph line different emotions. Middle line is neutral. This line represents sati
 
 Problems and Actions.
 
+Quote thoughts and feelings for each phase of the journey. 
+And areas of improvement for each phase.
+
 User interface. 
