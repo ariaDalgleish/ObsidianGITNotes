@@ -17,3 +17,8 @@ User Characteristics -> Personas
 User Experience Goals -> User Journey Map
 
 Persona Map
+
+Different phases is the story. The personal experiences with milestones through a journey.
+Graph line different emotions. Middle line is neutral. This line represents satisfaction
+
+Problems and Actions.
