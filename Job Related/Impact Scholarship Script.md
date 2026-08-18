@@ -1,0 +1,8 @@
+Please tell us what you would use the Impact Scholarship funding for and what difference it will make to you (required) 
+
+  
+
+Since 2025 I’ve been researching and applying for internships, making all efforts I can to attend workshops, industry events, and network while of course completing my bachelors degree with utmost care. Balancing work, full-time study, and career hunting is exhausting and extreme, and after no results in pursuit of graduate roles in my industry I'm taking a second chance and trying again. I’m self-motivated and determined. Instead of wasting around on Work and Income, barely making enough to cover rent, I’ve picked up a Graduate Diploma in COMPSCI. I’m on campus at AUT 5 days of the week attending my classes, career expo’s, and studying in my free time. My weekends and Friday nights are spent working and any time I can squeeze in I pick up extra hours. The little extra income makes all the difference in my world. 
+
+I’m a 20 year old woman pursuing a career in the tech industry, I’ve got a bachelors qualification and by July 2027 I’ll have a Computer Science Graduate Diploma. I’ve never been so eager or worked so hard to get into the world and make a contribution, rejection after rejection I’ll continue working. But I can only do so much, I struggle to feed myself most days and to pay bus fares. Any additional costs for study equipment or work uniforms causes a lot of stress. The impact scholarship would make an enormous difference to my everyday life, especially the support and encouragement I’d receive. Already Summer of Tech has taken a weight off my shoulders by updating with relevant graduate roles and events that I otherwise wouldn’t have found.  
+Thank you for this opportunity.

@@ -1,11 +1,29 @@
+---
 
-Personas - End user profile.
+---
+# Written Notes
+ 07/08 2pm - 4pm
+![[Note Persona1_.jpg|200]]![[Note Persona 2 2.jpg|203]]![[Note Persona3.jpg|174]]
+This is a collection of notes written during tutorial 4.
+
+This was my way of collecting my thoughts. Writing down a draft of a story for each persona adding on any details along the way.
+From here I wrote out my draft into a table for each persona, and continued to refine each story until my design felt satisfactory.
+My next process was to mock up my persona design into a template on Figma. And then fill in the corresponding information into each box.
+# Tutorial 4 Digital Notes
+07/08 2pm - 4pm
 Match the design to the persona to meet users needs.
 
 Task. Make three personas. To identify major user groups
 As independent as possible 
 Specifics of goals demographic, biography, frustrations, relevant prior experience.
 
+Case study: Clarity Drive  
+Persona Group Categories (3): 
+
+| Group 1    | Group 2    | Group 3         |
+| ---------- | ---------- | --------------- |
+| Student    | Middle Age | Elder           |
+| New Driver | Passenger  | Impaired Driver |
 ## Persona One
 Project: Automated driving so Jenna can have minimal focus on the road while staying professional on the job. Making deliveries on time, following road rules and safety regulations. 
 
@@ -26,5 +44,9 @@ Project:
 | End User - Hazardous Driver from disabilites<br>                    | BIO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Goals                                                                                                                                                                                                                                                                  | Frustrations                                                                                                     |
 | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Name: Kelvin <br>Gender: Male<br>Age: 87<br>Occupation: <br>Retired | Kelvin is a retired elder with many grandchildren that live around the country. Kelvin drives often to attend church every sunday, special occasions such as birthdays, and weekly visits to family members. <br>His day to day can be lonely and uneventful as he lives alone, his partner passed peacefully a few years ago. To battle with loneliness and boredom his try's to fill his week with trips and events but feels restricted from his old age, upcoming health concerns, and restricted mobility. <br> | - To visit family and friends that live further away<br>- Drive to events such as church, birthdays, and special occasions.<br>- Doesn't want to feel a hazard on the road, putting himself and others in danger from his fragile age and unpredictable health issues. | - Warned by family members and friends about driving with his old age.<br>- Feels lonely being away from people. |
-|                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                        |                                                                                                                  |
-![[Pasted image 20260814154020.png]]
+# Q & A
+Should I include demographic such as gender? 
+- Yes absolutely! Include any information about the user that could be relevant.
+
+Do I also need to add boxes to explain the information on my persona like the example?
+- No, you don't need helpers, just final design. If you want to explain add that into your POOL

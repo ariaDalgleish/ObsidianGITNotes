@@ -16,3 +16,8 @@ Base rotates independately
 Lower arm attached to baase (inherits base)
 	Position depends on position of base, must also translate relative to base and rotate about connecting joint
 Upper arm attached to lower arm (inherits lower arm)
+
+Character main.
+
+Needs propeller, feet. 
+Features- Bubbles should always come from mouth.
