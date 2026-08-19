@@ -74,6 +74,7 @@ Case study has problems, symptoms, and results already but it could have more! T
 
 # Fishbone
 
+## Categories & Symptoms
 The 6Ms (Manufacturing and Production)
 - **Manpower / Mindpower**: Human errors, training gaps, or skill shortages.
 	- **Users** - demographics, attention, physiology 
@@ -103,11 +104,13 @@ The 6Ms (Manufacturing and Production)
 		- Low salience
 			- Distinction between updates/changes.
 		- Reactive not Pro-active design
+			- Interface responds after detection. The user experiences the change first then the explanation. If design was pro-active, the system would signal *before* the event giving user lead time to orient, prepare, or intervene.
 - **Measurement**: Faulty data, incorrect metrics, or calibration errors.
 	- **Feedback & trust** - signals (or lack of) that let users gauge outcome/confidence
 		- No anticipation cue
 		- No trust calibration
 		- No confidence signal
+			- "This or that" Instead system showing it's own certainty: "reacting to a possible obstruction, adjusting cautiously" vs "confirmed hazard, braking".  Adds levels of tone and format to distinguish between minor or critical events.
 		- Trust erosion
 		- Anxiety
 - **Milieu / Mother Nature**: External environmental conditions like temperature or humidity.
@@ -119,4 +122,21 @@ The 6Ms (Manufacturing and Production)
 Source: 
 https://www.knowledgetrain.co.uk/business-analysis/business-analyst-course/business-analysis-technique-fishbone-diagrams
 
-Symptom keywords:
+## Problem statement:
+> Define the problem. Create a clear, concise problem statement. This should address a known issue or one you're trying to prevent.
+> *explicitly highlighting relevant HCI elements and variables.*
+
+- Written from the users perspective, not the systems. 
+- Implies a direction for design, without prescribing the solution. 
+	Tells you what to design for not what to build.
+
+User-Need-Goal. 
+
+Describe the emotional/behavioral gap. Name the interface variables at play: modality, ti8ming, salience, information context, personalization. 
+Statement should account for each symptom - check branch by branch.
+
+``` ProblemStatement
+As an occupant in a semi-autonomous vehicle who alternates between riding and driving, I want timely, confidence-rated explanations of the vehicle's driving decisions, scaled to my familiarity with AV systems, so that I can distinguish routine adjustments from critical ones, anticipate what happens next, and stay calm and trusting rather than startled.
+```
+
+Passengers are primary stakeholders defined in the Case Study, the system must also include other stakeholders such as the driver! 
