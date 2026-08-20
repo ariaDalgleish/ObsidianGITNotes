@@ -132,7 +132,7 @@ https://www.knowledgetrain.co.uk/business-analysis/business-analyst-course/busin
 
 User-Need-Goal. 
 
-Describe the emotional/behavioral gap. Name the interface variables at play: modality, ti8ming, salience, information context, personalization. 
+Describe the emotional/behavioral gap. Name the interface variables at play: modality, timing, salience, information context, personalization. 
 Statement should account for each symptom - check branch by branch.
 
 ``` ProblemStatement
