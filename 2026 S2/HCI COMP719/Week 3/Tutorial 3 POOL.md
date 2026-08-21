@@ -42,13 +42,6 @@ What is the problem? The interface? environment? situation? task?
 
 **Result is user attention is intermittent and directed away from interface (surrounding)**.
 In critical scenarios, vehicle will alert driver & request manual override of driving control.
-Different levels of automation
-- 0 - 2 
-	- Cruise Control 
-	- Monitoring speed
-	- The human monitors the driving environment
-- 3 - 5
-	- The automated system monitors the driving environment
 
 From test result there is a lack of clarity. Surprises drivers, erodes trust, increasing anxiety particularly for motion sensitive users.
 > " Why did the car do that? "
@@ -64,15 +57,11 @@ If user is studying automated driving needs to be seamless, smooth, to minimize 
 
 Take factor of other users in vehicle other than driver, and users outside of vehicle.
 
-Catergories 
-1. Material 
-	Any physical or non-physical components of the system, including people, resources, and tools.
-
 ----
-## Fishbone diagram tutorial discussion
+### Fishbone diagram tutorial discussion
 Case study has problems, symptoms, and results already but it could have more! That's my job to add my own ideas, research, and analysis - **be creative**, find more what ifs?. Come up with my own remake problem statement.
 
-# Fishbone
+# Categories & Symptoms
 
 The 6Ms (Manufacturing and Production)
 - **Manpower / Mindpower**: Human errors, training gaps, or skill shortages.
@@ -118,5 +107,3 @@ The 6Ms (Manufacturing and Production)
 		- Weather/Traffic/Construction triggers.
 Source: 
 https://www.knowledgetrain.co.uk/business-analysis/business-analyst-course/business-analysis-technique-fishbone-diagrams
-
-Symptom keywords:
