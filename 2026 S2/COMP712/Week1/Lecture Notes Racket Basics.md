@@ -57,6 +57,7 @@ Useful list functions:
 	(cdr (cons 1 "name")) -> returns "name"
 	(cdr (list 1 "name")) -> returns ("name") , a list 
 
+> ```
 > (reverse '(1 2 3 4 5))
 > '(5 4 3 2 1)
 > (append ' (1 2) ' (3 4) ' (5 6))
@@ -65,21 +66,26 @@ Useful list functions:
 > '(0 2 4 6 8)
 > (null? ' (1 2 3 4 5))
 > false (#f) 
+> ```
 
 first element of s-expression will try to call....
 
 Special Form: Defines
+```
 (define x 5) -> returns nothing
 (define f (+ x 4)) -> x is now 5 so 5 + 4 = 9! 
 (define g (+ x f)) -> g = 14  (5 + 9)
+```
 Evaluates the expression then bind it to f
 
 **Defining functions** has same form as something else
+```
 (define (<name><arguments>) <body>)
 	(define (square x)(* x x))
 		function name = square
 		argument = x
 		function body = (* x x)
+```
 
 Define a procedure 
 
@@ -88,17 +94,21 @@ no news is good news (no errors lol)
 Order of Evaluation
 - Applicative Order
 	- Evaluate arguments, then apply
-(+ 5 1) (* 5 2) = 6 10
+`(+ 5 1) (* 5 2) = 6 10`
 - Normal Order
 	- Fully expand, then reduce
+```
 (+ (* (+ 5 1)  (+ 5 1) )
 	(* ( 5 2) (* 5 2) ) )
+```
 In racket anything that isn't = false is default true. 
 
 Conditional: 
+```
 (cond [<e1a> <e1b>]
 	[<e2a> <e2b>]
 	. . . . .
 	[else <eNb>] )
+```
 If e1a is true, evaluate e1b, etc.
 good practice to use else at end of condition: if nothing else it catches. 
