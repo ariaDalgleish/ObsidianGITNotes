@@ -1,0 +1,6 @@
+- [x] Tutorial 1
+- [ ] Tutorial 2
+- [x] Tutorial 3
+- [ ] Tutorial 4
+- [x] Tutorial 5
+- [ ] Tutorial 6

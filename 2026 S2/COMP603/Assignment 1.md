@@ -33,33 +33,21 @@ Loop:
 
 Assignment Overview:
 Requirements of Assignment 1
-• Object-Oriented (OO) Programming concepts must be applied to the project. Important OO concepts,
-i.e., encapsulation, abstraction, inheritance and polymorphism, must be reflected.
-• In Software Development Project 1, you will need to develop a Command-line User
-Interface (CUI) version of the software product using Java Programming Language.
-• In Software Development Project 1, you will need to apply ALL the fundamental OOP
-concepts (abstraction, encapsulation, inheritance, polymorphism), try to follow the SOLID
-design principles, create multiple classes with relationships, and use text files to store input
-and output data from the program.
-• The source code of Project 1 will be submitted by the end of Week 7.
-• Refer to the important dates for the due date of both project assignments.
-• The program needs to be bug-free and has robust error handling.
-• You need to develop the projects by using NetBeans 28 and JDK25.
-• The program should be easy to build and run without any manual configuration.
-• You need to have an open mind about the functionality of your software project and try your
-best to make your program robust, interesting, and easy to use.
-• You may use the Java standard library and other external libraries.
-• You are encouraged to learn more beyond the lectures and apply what you have learnt to the
-projects. However, the project requirements stated in this document should be satisfied.
-• You also need to include a short report, stating the project setup and the contribution of each
-teammate (if you work in a group). If any team member gives less than 40% contribution/no
-contribution in terms of coding, the student will be given a penalty or even fail the course. The
-report should also include an AI usage log as an appendix and a one-page reflective summary
-on AI use. See the AI Usage Documentation section for details.
-• You need to record a short video (less than 5 minutes) using any tools (e.g., MS Teams) to
-demonstrate your project AND explain the code. The recorded video must be included in the
-submission.
-• Read Marking Guideline carefully for the details.
+- Object-Oriented (OO) Programming concepts must be applied to the project. Important OO concepts, i.e., encapsulation, abstraction, inheritance and polymorphism, must be reflected.
+- In Software Development Project 1, you will need to develop a **Command-line User Interface (CUI)** version of the software product using Java Programming Language.
+- In Software Development Project 1, you will need to apply ALL the fundamental OOP concepts (abstraction, encapsulation, inheritance, polymorphism), try to follow the SOLID design principles, create multiple classes with relationships, and use text files to store input and output data from the program.
+- The source code of Project 1 will be submitted by the end of Week 7.
+- Refer to the important dates for the due date of both project assignments.
+- The program needs to be **bug-free** and has **robust error handling**.
+- You need to develop the projects by using **NetBeans 28 and JDK25.**
+- The program should be easy to build and run without any manual configuration.
+- You need to have an open mind about the functionality of your software project and try your best to make your program robust, interesting, and easy to use.
+- You may use the Java standard library and other external libraries.
+- You are encouraged to learn more beyond the lectures and apply what you have learnt to the projects. However, the project requirements stated in this document should be satisfied.
+- You also need to include a short report, stating the project setup and the contribution of each teammate (if you work in a group). If any team member gives less than 40% contribution/no contribution in terms of coding, the student will be given a penalty or even fail the course. The report should also include an AI usage log as an appendix and a one-page reflective summary on AI use. See the AI Usage Documentation section for details.
+
+- You need to **record a short video** (less than 5 minutes) using any tools (e.g., MS Teams) to demonstrate your project AND explain the code. The recorded video must be included in the submission.
+- Read **Marking Guideline** carefully for the details.
 
 Rubric:
 
