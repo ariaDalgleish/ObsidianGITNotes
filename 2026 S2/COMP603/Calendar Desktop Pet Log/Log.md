@@ -88,7 +88,7 @@ On run:
 | On run   | *Checks for calendar source*<br>*No calendar found* = "Import calendar URL to proceed..."<br>*Calendar found move to sleeping pet state + dialogue*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Sleeping | ""zzz..." Pet is sleeping shh, do you want to wake up pet? (Type anything)"<br>*User types something and enters -> Awake state*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Awake    | *start idle timer (timer stops when state is exited, e.g. pet state changes to active timer stops then starts again when awake state is called)*<br>*If  timer reaches n return to sleep state*<br><br>""Mmmrm" Your pet wakes up!"<br>*If daily calendar is already displayed skip to drop menu*<br>*Display daily calendar* <br>"Date"<br>"Event"<br>*If no scheduled events found ->* "Nothing to do today!"<br><br>*Drop menu:*<br>"Type "Next" to view next day's schedule"<br>"Type "Back" to view previous day's schedule"<br>"Type "Reset" to view the current day."<br><br>*If user types unrecognized command*<br>""Hmmm?" Your pet tilts head in confusion"<br>*If user types command change state to active* |
-| Active   | *Wipe CUI*<br>*Next command* "Pet flips calendar's page foward!"<br>*Back command* "Pet flips calendar's page back!"<br>*Reset command* "Pet flips calendar's page foward!"<br>*Display according daily calendar* <br>"Date"<br>"Event"<br>*If no scheduled events found ->* "Nothing to do today!"<br>*Return to idle state*<br>                                                                                                                                                                                                                                                                                                                                                                                        |
+| Active   | The is how the pet executes actions.<br>Although Active state is short lived it's still necessary step. It executes the pet's actions and dialogues and creates a reset point for the idle timer.<br><br>*Next command* "Pet flips calendar's page foward!"<br>*Back command* "Pet flips calendar's page back!"<br>*Reset command* "Pet flips calendar's page foward!"<br>*Display according daily calendar* <br>"Date"<br>"Event"<br>*If no scheduled events found ->* "Nothing to do today!"<br>*Return to idle state*<br>                                                                                                                                                                                             |
 Although Active state is short lived it's still necessary step. It executes the pet's actions and dialogues and creates a reset point for the idle timer. 
 
 Classes design log:
@@ -234,3 +234,69 @@ Each line gets handed to `parseAndStore(line)` wrapped in its own try/catch so a
 
 
 Bug: I forgot to make `CalendarSource` an interface and instead declared as a class.
+
+`DateTimeFormatter` Javadoc.
+Used as guide for references.
+Format is default ISO `uuuu-MMM-dd`
+
+Design is currently local meaning there is no time zone only just the date, not time of day. How to make sure it's correct time region? 
+Make sure its english?
+
+Possible features:
+Choose language and time zone.
+
+Perhaps after importing calendar prompt will show asking if the time zone and language "  " is correct, and if they'd like to change.
+
+UPDATE
+
+OnRunCheck is skipped. Url prompt never shows. I believe this is because the enter key is answering to the name prompt and skipping this skip or methods are called at same time? 
+Actually no. It's because it goes straight to sleep state after running if on a boolean which isn't set up because Calendarsource needs to be set up properly.
+Or it's because the Calendar.txt file is already found?
+Bug - user can just press enter insteading of typing to enter awake state.
+
+
+
+Bug - Idle, when pet falls asleep from inactivity it doesn't print to output until user types a command and sometimes never times out? Is this is I'm alt tabbed out of netbeans it doesn't keep going.
+
+
+calendar.txt :
+2026-09-10,07:50,Work
+2026-09-10,18:00,COMP712,WS313 AUT
+2026-09-11,14:00,COMP719 Tutorial,WF402 AUT City Campus
+2026-09-13,10:00,Church,1 Valley Rd
+
+bug time out. `scanner.nextLine()` is a **blocking** call.
+once your program reaches that line, execution completely stops and waits, potentially forever, until you type something and hit Enter
+
+**The fix — poll for input instead of blocking on it**, using `System.in.available()` to check whether there's actually a line ready to read _before_ committing to `nextLine()`:
+
+Timeout function: readLineWithTimeout()
+I had a bug where it would never timeout because I would use scanner.nextLink() blocking the timer from running.
+
+By using `System.in.available()` to check whether there's actually a line ready to read _before_ committing to `nextLine()`:
+If nothing's been typed yet, so instead of freezing on a full read, it checks `idleTimedOut()` right then, and if not timed out yet, sleeps for just 200ms and loops around to check again. Short enough that the timeout feels responsive, long enough that the loop isn't hammering the CPU.
+It is not the most precise as it reports *bytes* waiting, but it is a stand approach for a CUI.
+
+
+Script:
+I started with the idea of developing a virtual desktop pet, but I thought it'd make for a much better project if it had a useful function.
+A virtual pet lets user interact to maybe give inputs, click buttons, play animations. I would want my virtual pet to display reminders for myself.
+I'm always using my calendar to keep track of my tight schedules of what's happening and where I need to be at what time. 
+
+
+ToDO:
+- A custom checked exception class (e.g. `CalendarImportException`) instead of catching generic `IOException` everywhere — this also strengthens your "robust error handling" score separately.
+- Splitting console output/input handling out of `Pet` into something like a `ConsoleView` or `MenuRenderer` class — `Pet` currently mixes state logic _and_ all the printing/reading, which is worth separating for a cleaner Single Responsibility story anyway.
+- persist the pet's name, language, and last-used date to a settings file
+- Settings to select language
+
+
+ConsoleView class.
+Pet no longer imports scanner or calls system.out or .in
+Pet only has state logic, calendar logic or dialogue text. nothing about how the text reaches the screen.
+`readLineWithTimeout` takes a `BooleanSupplier` parameter rather than knowing about pets idle timer. The _policy_ (when is it idle) stays in `Pet`, the _mechanism_ (how to poll for input) lives in `ConsoleView`.
+`showCalendarFor()` now builds the events into `view.println(event.toString())` calls rather than a raw `System.out.println(event)` — functionally identical, just routed through the view.
+
+goToSleep() - goes to sleep and reset the date into one method instead of updating current date.
+
+
