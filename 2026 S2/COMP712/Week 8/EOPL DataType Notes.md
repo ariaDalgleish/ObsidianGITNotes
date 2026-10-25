@@ -93,7 +93,3 @@ Check membership in the type first, then use `cases` to test which variant it ac
 ## Key conceptual point
 
 You can only construct **variant** instances — `null-node`, `leaf-node`, `interior-node` — never the abstract type `bintree` itself. Each variant _is a_ `bintree`, but there's no way to build a "generic" bintree directly; the type only exists as the union of its variants.
-
----
-
-Given this looks like it's feeding into the same programming-languages/Racket coursework you've been working on, want me to also sketch how `define-datatype` + `cases` would apply to something like the event-stream processor from your functional programming assignment?

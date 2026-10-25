@@ -40,3 +40,7 @@ Case study brief.
 Car is level 3 automation
 
 Frame of screen is 1920 x 1200 (Tesla Dimensions)
+
+Following this discussion I got wrapped up with and lost time to write up all the discussions and meetings. The decision was orginally I took on the log in pages, but then got swapped around to the home page.
+This was an anonymous decision backed up by my prior experience studying design and my creative flow that  I was best suited to create the overall theme. 
+ 

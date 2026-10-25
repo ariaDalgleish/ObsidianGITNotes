@@ -43,9 +43,12 @@ Extra feature ideas (list objects at end of logbook)
 
 **Logbook requirements:**
 Record dates, time spent, record of bugs and fixes, and design details.
-Design ideation documented with illustrations and notes. Story boardings as a means of planning and documententing oyur scene and animation ideas. 
+Design ideation documented with illustrations and notes. Story boardings as a means of planning and documentation your scene and animation ideas. 
 Screenshot at end of each entry for the work done and **provide a short statement in the last log entry that critically evaluates what you did** well, most challenging, do differently next time and identifies the shortcomings of your application.
 At end **State 4 extra feautres (with screenshot)**
 **2 Appendix**:
 Appendix 1. screenshot of two lightings
 Appendix 2. texture images
+
+Displayed list of seaweed on seabed.
+Sea weed is imported model 
